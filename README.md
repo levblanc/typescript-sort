@@ -1,5 +1,15 @@
 # typescript-sort
 
+## Quick start
+
+```zsh
+# Install dependencies
+npm install
+
+# Run
+npm start
+```
+
 ---
 
 Course:
