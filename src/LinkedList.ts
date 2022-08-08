@@ -1,4 +1,5 @@
 import { Sorter } from './Sorter';
+
 class Node {
   next: Node | null = null;
 

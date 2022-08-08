@@ -1,5 +1,8 @@
 # typescript-sort
 
+Implements a sorting function that can work with array of numbers, string and
+linked list, by using abstract class.
+
 ## Quick start
 
 ```zsh

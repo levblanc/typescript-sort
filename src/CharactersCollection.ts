@@ -1,4 +1,5 @@
 import { Sorter } from './Sorter';
+
 export class CharactersCollection extends Sorter {
   constructor(public data: string) {
     super();
