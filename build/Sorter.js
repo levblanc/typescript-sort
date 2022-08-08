@@ -2,17 +2,14 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.Sorter = void 0;
 class Sorter {
-    constructor(collection) {
-        this.collection = collection;
-    }
     sort() {
-        const { length } = this.collection;
+        const { length } = this;
         // use `instanceof` operator to check other types
         // use `typeof` operator to check primitive value types
         for (let i = 0; i < length; i++) {
             for (let j = 0; j < length - i - 1; j++) {
-                if (this.collection.compare(j, j + 1)) {
-                    this.collection.swap(j, j + 1);
+                if (this.compare(j, j + 1)) {
+                    this.swap(j, j + 1);
                 }
             }
         }
